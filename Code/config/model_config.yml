@@ -1,0 +1,14 @@
+train_config:
+  n_history: 12
+  n_prediction: 12
+  time_interval: 5
+  dropout_rate: 0.3
+  lr: 0.001
+  weight_decay: 0.001
+  step_size: 10
+  gamma: 0.95
+  epochs: 1000
+  patience: 20
+  temporal_kernel_size: 3
+  use_explanation: True
+  use_LGTEncoder: True

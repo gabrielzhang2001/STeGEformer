@@ -1,0 +1,19 @@
+data_config:
+  dataset_name: pems-bay
+  splits:
+    val_and_test_rate: 0.15
+  batch_size: 32
+
+vis_config:
+  num_vis_samples: 1
+  vis_interval: 1
+  important_threshold: 0.7
+
+info_config:
+  info_loss_coef: 0.1
+  fix_r: False
+  init_r: 0.9
+  decay_interval: 10
+  decay_r: 0.1
+  final_r: 0.5
+  temp: 1.0
